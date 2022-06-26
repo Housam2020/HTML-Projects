@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Car Survey</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Favourite Car Survey Form</h1>
+    <p>Welcome to the car survey</p>
+
+    <form action="housam-alamour.com">
+      <fieldset>
+        <label>
+          Name
+          <input type="text" id="name" placeholder="enter your name" required />
+        </label>
+        <label>
+          Email
+          <input
+            type="email"
+            id="email"
+            placeholder="enter your email"
+            required
+          />
+        </label>
+        <label>
+          Age (optional)<input
+            type="number"
+            id="name"
+            placeholder="enter your age"
+          />
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+          What is your favourite car brand?
+          <select id="name">
+            <option>Acura</option>
+            <option>Audi</option>
+            <option>BMW</option>
+            <option>Ferrari</option>
+          </select>
+        </label>
+        <label class="radio-box">
+          What is your favourite type of car? Sedan
+          <input name="type" type="radio" class="radio" /> Coupe
+          <input name="type" type="radio" class="radio" /> SUV
+          <input name="type" type="radio" class="radio" />
+        </label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <label>
+          What are your favourite car features?
+          <input
+            type="checkbox"
+            id="V8-engine"
+            value="v8-engine"
+            class="inline"
+          />
+          V8-engine
+          <input
+            type="checkbox"
+            value="cabriolet"
+            id="cabriolet"
+            class="inline"
+          />
+          Cabriolet
+          <input type="checkbox" id="awd" value="awd" class="inline" /> AWD
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Have any comments</label>
+        <textarea placeholder="Please enter a comment"></textarea>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
